@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "TrainCraft GPS",
+    "slug": "traincraft-gps",
+    "scheme": "traincraft-gps",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "app.traincraft.gpsprototype",
+      "supportsTablet": false
+    },
+    "plugins": [
+      ["expo-location", {
+        "locationWhenInUsePermission": "TrainCraft uses your location to measure distance during a run you start.",
+        "locationAlwaysAndWhenInUsePermission": "TrainCraft measures your distance while your run is active, including when the screen is locked.",
+        "isIosBackgroundLocationEnabled": true
+      }]
+    ]
+  }
+}
